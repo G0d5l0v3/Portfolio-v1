@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: kostic;
+  src: url(./Assets/Fonts/LogoFont/KosticSerif/KosticSerif-Bold.ttf);
+}
+@font-face {
+  font-family: archivo-light;
+  src: url(./Assets/Fonts/TextFont/Archivo/Archivo-Light.ttf);
+}
+@font-face {
+  font-family: archivo-regular;
+  src: url(./Assets/Fonts/TextFont/Archivo/Archivo-Regular.ttf);
+}
+@font-face {
+  font-family: archivo-bold;
+  src: url(./Assets/Fonts/TextFont/Archivo/Archivo-Bold.ttf);
+}
+@font-face {
+  font-family: archivo-medium;
+  src: url(./Assets/Fonts/TextFont/Archivo/Archivo-Medium.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
