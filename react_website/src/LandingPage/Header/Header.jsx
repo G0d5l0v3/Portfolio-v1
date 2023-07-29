@@ -5,6 +5,9 @@ import Bounce from 'react-reveal/Bounce'
 import Pulse from 'react-reveal/Pulse'
 import React, { useState } from 'react'
 import coder from "../../Assets/Images/coder.gif"
+import githubLink from "../../Assets/Images/github-link.svg"
+import twitterLink from "../../Assets/Images/twitter-link.svg"
+import linkedinLink from "../../Assets/Images/linkedin-link.svg"
 import Marquee from "react-fast-marquee"
 
 const Header = () => {
@@ -25,13 +28,14 @@ const Header = () => {
                     </div>
                     <div className="flex gap-[2.5rem] items-center font-[archivo-regular] text-[1rem]">
                         <NavLink to="/">Home</NavLink>
-                        <NavLink to="/about">About</NavLink>
                         <NavLink to="/techstack">Techstack</NavLink>
                         <NavLink to="/projects">Projects</NavLink>
                         <NavLink to="/contact">Contact</NavLink>
                     </div>
-                    <div className="flex items-center ">
-                        <Button type="black" text="Hire Me"></Button>
+                    <div className="flex items-center gap-[3rem]">
+                        <img src = {githubLink} alt="github-link"/>
+                        <img src = {twitterLink} alt="twitter-link"/>
+                        <img src = {linkedinLink} alt="linkedin-link"/>
                     </div>
                 </nav>
 
@@ -55,8 +59,8 @@ const Header = () => {
                     </div>
 
                     <div className="flex items-center gap-[1rem] mb-[3.5rem]">
-                        <Button type="black" text="Hire Me"></Button>
-                        <Button type="white" text="Download CV"></Button>
+                        <Button type="black" text="Let's Connect"></Button>
+                        <Button type="white" text="Preview CV"></Button>
                     </div>
 
                 </main>
