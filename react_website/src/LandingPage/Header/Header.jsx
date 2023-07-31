@@ -72,7 +72,7 @@ const Header = () => {
         </nav>
 
         <main className="px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 py-8 sm:py-16 lg:py-24">
-          <div className="flex flex-col sm:flex-row items-center font-[archivo-regular] text-4xl sm:text-base md:text-4xl lg:text-5xl xl:text-6xl mt-8 sm:mt-12 lg:mt-16 xl:mt-20">
+          <div className="flex flex-col sm:flex-row items-center font-[archivo-regular] text-3xl  sm:text-base  md:text-4xl lg:text-5xl xl:text-6xl mt-8 sm:mt-12 lg:mt-16 xl:mt-20">
             <Bounce left>
               <Pulse>
                 <div>
