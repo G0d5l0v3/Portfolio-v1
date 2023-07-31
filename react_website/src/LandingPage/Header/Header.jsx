@@ -24,7 +24,7 @@ const Header = () => {
             <header className="height-[100svh] w-[100%]">
                 <nav className="flex justify-between px-[5%]">
                     <div className="leading-[3.5rem]">
-                        <h1 className="flex items-center font-[kostic] text-[1.6rem]"> &lt; Ghost<span className="text-[#F7B32B]">Dev / &gt;</span></h1>
+                        <h1 className="flex items-center font-[kostic] sm:text-[1.6rem] lg:text-[1.6rem]"> &lt; Ghost<span className="text-[#F7B32B]">Dev / &gt;</span></h1>
                     </div>
                     <div className="flex gap-[2.5rem] items-center font-[archivo-regular] text-[1rem]">
                         <NavLink to="/">Home</NavLink>
@@ -40,7 +40,7 @@ const Header = () => {
                 </nav>
 
                 <main className="px-[7%] ">
-                    <div className="flex items-center font-[archivo-regular] text-[4.3rem] mt-[3rem] mb-[3rem]">
+                    <div className="flex items-center font-[archivo-regular] sm:text-sm md:text-[4rem] lg:text-[4.3rem] xl:text-[4.3rem] mt-[3rem] mb-[3rem]">
                         <Bounce left>
                             <Pulse>
                                 <div>
@@ -53,7 +53,7 @@ const Header = () => {
 
                         <Bounce right>
                             <div>
-                                <img src={coder} alt="vector" />
+                                <img src={coder} alt="vector"/>
                             </div>
                         </Bounce>
                     </div>

@@ -23,7 +23,7 @@ const Content = () => {
           <div className="px-[7%] py-[8%]" id="techstack">
             <div className="gap-3 h-[100vh] w-[100%]">
               <Pulse>
-                <h1 className="text-center font-[archivo-regular] text-[4.5rem] pt-[3rem] pb-[1rem]">My Tech Stack</h1>
+                <h1 className="text-center font-[archivo-regular] pt-[3rem] pb-[1rem] sm:text-sm md:text-[4rem] lg:text-[4.3rem] ">My Tech Stack</h1>
                 <p className="text-center font-[archivo-regular] text-[1.5rem] pb-[3rem]">Technologies I've been working with recently</p>
                 <div className="grid grid-cols-4 gap-7">
                   {skills.map((items, index) => (
