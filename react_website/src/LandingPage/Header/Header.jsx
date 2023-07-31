@@ -113,7 +113,7 @@ const Header = () => {
             <Button
               type="white"
               text="Preview CV"
-              className="w-full sm:w-auto"
+              className="w-full "
             ></Button>
           </div>
         </main>
