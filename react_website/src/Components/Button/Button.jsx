@@ -1,5 +1,6 @@
 import React from 'react';
 import getStart from "../../Assets/Images/getstart.svg";
+import { NavLink } from 'react-router-dom';
 
 const Button = ({ type, text, onClick }) => {
     switch (type.toLowerCase()) {
@@ -8,7 +9,7 @@ const Button = ({ type, text, onClick }) => {
             break;
         case "white":
             return (<NavLink 
-            to="https://drive.google.com/drive/u/0/my-drive"
+            to="https://drive.google.com/file/d/1s2ACCbhbbE9TAPA5GcxGt5jhzERBWEBQ/view?usp=sharing"
             >
                 <button className="flex items-center bg-[#FFFFFF] px-[1.2rem] py-[0.5rem] font-[archivo-regular] text-[#000000] text-[1rem] rounded-[2rem] outline-none outline-1 outline-[#dedede]" onClick={onClick}> {text}  </button>
 
