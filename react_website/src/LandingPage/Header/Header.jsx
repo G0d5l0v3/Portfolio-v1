@@ -1,73 +1,124 @@
-
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import Button from "../../Components/Button/Button"
-import { NavLink } from 'react-router-dom'
-import Bounce from 'react-reveal/Bounce'
-import Pulse from 'react-reveal/Pulse'
-import React, { useState } from 'react'
-import coder from "../../Assets/Images/coder.gif"
-import githubLink from "../../Assets/Images/github-link.svg"
-import twitterLink from "../../Assets/Images/twitter-link.svg"
-import linkedinLink from "../../Assets/Images/linkedin-link.svg"
-import Marquee from "react-fast-marquee"
+import Bounce from 'react-reveal/Bounce';
+import Pulse from 'react-reveal/Pulse';
+import coder from '../../Assets/Images/coder.gif';
+import githubLink from '../../Assets/Images/github-link.svg';
+import twitterLink from '../../Assets/Images/twitter-link.svg';
+import linkedinLink from '../../Assets/Images/linkedin-link.svg';
+import Marquee from 'react-fast-marquee';
 
 const Header = () => {
-    const [hovered, setHovered] = useState(false)
-    const handleHover = () => {
-        setHovered(true)
-    }
-    const handleLeave = () => {
-        setHovered(false)
-    }
+  const [hovered, setHovered] = useState(false);
+  const handleHover = () => {
+    setHovered(true);
+  };
+  const handleLeave = () => {
+    setHovered(false);
+  };
 
-    return (
-        <React.Fragment>
-            <header className="height-[100svh] w-[100%]">
-                <nav className="flex justify-between px-[5%]">
-                    <div className="leading-[3.5rem]">
-                        <h1 className="flex items-center font-[kostic] sm:text-[1.6rem] lg:text-[1.6rem]"> &lt; Ghost<span className="text-[#F7B32B]">Dev / &gt;</span></h1>
-                    </div>
-                    <div className="flex gap-[2.5rem] items-center font-[archivo-regular] text-[1rem]">
-                        <NavLink to="/">Home</NavLink>
-                        <NavLink to="/techstack">Techstack</NavLink>
-                        <NavLink to="/projects">Projects</NavLink>
-                        <NavLink to="/contact">Contact</NavLink>
-                    </div>
-                    <div className="flex items-center gap-[3rem]">
-                        <img src = {githubLink} alt="github-link"/>
-                        <img src = {twitterLink} alt="twitter-link"/>
-                        <img src = {linkedinLink} alt="linkedin-link"/>
-                    </div>
-                </nav>
+  return (
+    <React.Fragment>
+      <header className="min-h-screen w-full">
+        <nav className="flex flex-col sm:flex-row justify-between px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 py-4 bg-gray-900 text-white">
+          <div className="flex items-center">
+            <h1 className="text-xl font-bold">
+              &lt; Ghost<span className="text-[#F7B32B]">Dev / &gt;</span>
+            </h1>
+          </div>
+          <div className="flex gap-4 sm:gap-8 items-center mt-4 sm:mt-0">
+            <NavLink
+              to="/"
+              className="block text-base hover:text-[#F7B32B] transition-colors"
+              activeClassName="text-[#F7B32B]"
+              exact
+            >
+              Home
+            </NavLink>
+            <NavLink
+              to="/techstack"
+              className="block text-base hover:text-[#F7B32B] transition-colors"
+              activeClassName="text-[#F7B32B]"
+            >
+              Techstack
+            </NavLink>
+            <NavLink
+              to="/projects"
+              className="block text-base hover:text-[#F7B32B] transition-colors"
+              activeClassName="text-[#F7B32B]"
+            >
+              Projects
+            </NavLink>
+            <NavLink
+              to="/contact"
+              className="block text-base hover:text-[#F7B32B] transition-colors"
+              activeClassName="text-[#F7B32B]"
+            >
+              Contact
+            </NavLink>
+          </div>
+          <div className="flex gap-4 sm:gap-8 items-center mt-4 sm:mt-0">
+            <img src={githubLink} alt="github-link" className="w-6 h-6" />
+            <img src={twitterLink} alt="twitter-link" className="w-6 h-6" />
+            <img src={linkedinLink} alt="linkedin-link" className="w-6 h-6" />
+          </div>
+        </nav>
 
-                <main className="px-[7%] ">
-                    <div className="flex items-center font-[archivo-regular] sm:text-sm md:text-[4rem] lg:text-[4.3rem] xl:text-[4.3rem] mt-[3rem] mb-[3rem]">
-                        <Bounce left>
-                            <Pulse>
-                                <div>
-                                    <h1 className={hovered ? "blur-0 transition-[6s]" : "blur-sm text-[grey]"} onMouseOver={handleHover} >Hi, my name is</h1>
-                                    <h1 className={hovered ? "blur-sm text-[grey] transition-[6s]" : "blur-0"} onMouseOver={handleLeave}><span className="text-[#F7B32B]">Godslove Udo</span> <br />I build things for the web</h1>
-                                </div>
+        <main className="px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 py-8 sm:py-16 lg:py-24">
+          <div className="flex flex-col sm:flex-row items-center font-[archivo-regular] text-sm sm:text-base md:text-4xl lg:text-5xl xl:text-6xl mt-8 sm:mt-12 lg:mt-16 xl:mt-20">
+            <Bounce left>
+              <Pulse>
+                <div>
+                  <h1
+                    className={
+                      hovered
+                        ? 'blur-0 transition-[6s]'
+                        : 'blur-sm text-[#666]'
+                    }
+                    onMouseOver={handleHover}
+                  >
+                    Hi, my name is
+                  </h1>
+                  <h1
+                    className={
+                      hovered
+                        ? 'blur-sm text-[#666] transition-[6s]'
+                        : 'blur-0'
+                    }
+                    onMouseOver={handleLeave}
+                  >
+                    <span className="text-[#F7B32B]">Godslove Udo</span>
+                    <br />
+                    I build things for the web
+                  </h1>
+                </div>
+              </Pulse>
+            </Bounce>
 
-                            </Pulse>
-                        </Bounce>
+            <Bounce right>
+              <div className="mt-4 sm:mt-0">
+                <img src={coder} alt="vector" className="w-full" />
+              </div>
+            </Bounce>
+          </div>
 
-                        <Bounce right>
-                            <div>
-                                <img src={coder} alt="vector"/>
-                            </div>
-                        </Bounce>
-                    </div>
-
-                    <div className="flex items-center gap-[1rem] mb-[3.5rem]">
-                        <Button type="black" text="Let's Connect"></Button>
-                        <Button type="white" text="Preview CV"></Button>
-                    </div>
-
-                </main>
-            </header>
-
-        </React.Fragment>
-    )
-}
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 mt-8 sm:mt-12 lg:mt-16 xl:mt-20">
+            <Button
+              type="black"
+              text="Let's Connect"
+              className="w-full sm:w-auto"
+            ></Button>
+            <Button
+              type="white"
+              text="Preview CV"
+              className="w-full sm:w-auto"
+            ></Button>
+          </div>
+        </main>
+      </header>
+    </React.Fragment>
+  );
+};
 
 export default Header;
