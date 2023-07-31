@@ -18,7 +18,7 @@ const Cards = () => {
   ];
 
   return (
-    <div className = "flex justify-around" >
+    <div className = "flex items-center flex-wrap justify-around" >
       {cardData.map((item, index) => (
         <Card
           key={index}
