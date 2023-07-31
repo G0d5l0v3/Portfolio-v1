@@ -62,7 +62,7 @@ const Header = () => {
             <NavLink to="https://github.com/G0d5l0v3">
               <img src={githubLink} alt="github-link" className="w-6 h-6" />
             </NavLink>
-            <NavLink to="https://github.com">
+            <NavLink to="https://twitter.com">
               <img src={twitterLink} alt="twitter-link" className="w-6 h-6" />
             </NavLink>
             <NavLink to="https://www.linkedin.com/in/godslove-udo-2099b7199/">
