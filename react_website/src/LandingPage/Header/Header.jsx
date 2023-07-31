@@ -59,13 +59,13 @@ const Header = () => {
             </NavLink>
           </div>
           <div className="flex gap-4 sm:gap-8 items-center mt-4 sm:mt-0">
-            <NavLink to="https://www.linkedin.com/in/godslove-udo-2099b7199/">
+            <NavLink to="https://github.com/G0d5l0v3">
               <img src={githubLink} alt="github-link" className="w-6 h-6" />
             </NavLink>
-            <NavLink to="">
+            <NavLink to="https://github.com">
               <img src={twitterLink} alt="twitter-link" className="w-6 h-6" />
             </NavLink>
-            <NavLink to="https://github.com/G0d5l0v3">
+            <NavLink to="https://www.linkedin.com/in/godslove-udo-2099b7199/">
               <img src={linkedinLink} alt="linkedin-link" className="w-6 h-6" />
             </NavLink>
           </div>
