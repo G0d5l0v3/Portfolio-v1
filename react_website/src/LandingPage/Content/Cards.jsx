@@ -8,7 +8,7 @@ const Cards = () => {
       content: '',
     },
     {
-      title: 'Products Card',
+      title: 'FakeStore Api Products Card',
       content: '',
     },
     {

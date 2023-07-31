@@ -1,13 +1,13 @@
-import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
-import Button from "../../Components/Button/Button"
-import Bounce from 'react-reveal/Bounce';
-import Pulse from 'react-reveal/Pulse';
-import coder from '../../Assets/Images/coder.gif';
-import githubLink from '../../Assets/Images/github-link.svg';
-import twitterLink from '../../Assets/Images/twitter-link.svg';
-import linkedinLink from '../../Assets/Images/linkedin-link.svg';
-import Marquee from 'react-fast-marquee';
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import Button from "../../Components/Button/Button";
+import Bounce from "react-reveal/Bounce";
+import Pulse from "react-reveal/Pulse";
+import coder from "../../Assets/Images/coder.gif";
+import githubLink from "../../Assets/Images/github-link.svg";
+import twitterLink from "../../Assets/Images/twitter-link.svg";
+import linkedinLink from "../../Assets/Images/linkedin-link.svg";
+import Marquee from "react-fast-marquee";
 
 const Header = () => {
   const [hovered, setHovered] = useState(false);
@@ -59,9 +59,15 @@ const Header = () => {
             </NavLink>
           </div>
           <div className="flex gap-4 sm:gap-8 items-center mt-4 sm:mt-0">
-            <img src={githubLink} alt="github-link" className="w-6 h-6" />
-            <img src={twitterLink} alt="twitter-link" className="w-6 h-6" />
-            <img src={linkedinLink} alt="linkedin-link" className="w-6 h-6" />
+            <NavLink to="https://www.linkedin.com/in/godslove-udo-2099b7199/">
+              <img src={githubLink} alt="github-link" className="w-6 h-6" />
+            </NavLink>
+            <NavLink to="">
+              <img src={twitterLink} alt="twitter-link" className="w-6 h-6" />
+            </NavLink>
+            <NavLink to="https://github.com/G0d5l0v3">
+              <img src={linkedinLink} alt="linkedin-link" className="w-6 h-6" />
+            </NavLink>
           </div>
         </nav>
 
@@ -72,9 +78,7 @@ const Header = () => {
                 <div>
                   <h1
                     className={
-                      hovered
-                        ? 'blur-0 transition-[6s]'
-                        : 'blur-sm text-[#666]'
+                      hovered ? "blur-0 transition-[6s]" : "blur-sm text-[#666]"
                     }
                     onMouseOver={handleHover}
                   >
@@ -82,15 +86,12 @@ const Header = () => {
                   </h1>
                   <h1
                     className={
-                      hovered
-                        ? 'blur-sm text-[#666] transition-[6s]'
-                        : 'blur-0'
+                      hovered ? "blur-sm text-[#666] transition-[6s]" : "blur-0"
                     }
                     onMouseOver={handleLeave}
                   >
                     <span className="text-[#F7B32B]">Godslove Udo</span>
-                    <br />
-                    I build things for the web
+                    <br />I build things for the web
                   </h1>
                 </div>
               </Pulse>
