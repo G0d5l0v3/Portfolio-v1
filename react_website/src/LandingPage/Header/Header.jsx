@@ -29,7 +29,7 @@ const Header = () => {
           </div>
           <div className="flex gap-4 sm:gap-8 items-center mt-4 sm:mt-0">
             <NavLink
-              to="/"
+              to="/home"
               className="block text-base hover:text-[#F7B32B] transition-colors"
               activeClassName="text-[#F7B32B]"
               exact
