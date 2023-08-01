@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <Routes>
         <Route index element={<LandingPage />} />
-        <Route path="/home" element={<Header />} />
-        <Route path="/techstack" element={<Content />} />
+        <Route path="home" element={<Header />} />
+        <Route path="techstack" element={<Content />} />
         <Route path="projects" element={<Project />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
