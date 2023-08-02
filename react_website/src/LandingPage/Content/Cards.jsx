@@ -27,6 +27,18 @@ const Cards = () => {
       title: "",
       content: "",
     },
+    {
+      title: "",
+      content: "",
+    },
+    {
+      title: "",
+      content: "",
+    },
+    {
+      title: "",
+      content: "",
+    },
   ];
 
   return (
