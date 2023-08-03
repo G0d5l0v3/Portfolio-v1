@@ -16,7 +16,7 @@ const Cards = () => {
       ),
     },
     {
-      title: "Age Checker Calculator",
+      title: "Age Checker",
       content: (
         <a href="https://age-calculator-livid.vercel.app/" target="_blank">
           <img src={ageChecker} className="w-full h-[140px]" />

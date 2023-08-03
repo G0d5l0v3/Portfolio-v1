@@ -7,6 +7,7 @@ import coder from "../../Assets/Images/coder.gif";
 import githubLink from "../../Assets/Images/github-link.svg";
 import twitterLink from "../../Assets/Images/twitter-link.svg";
 import linkedinLink from "../../Assets/Images/linkedin-link.svg";
+
 import Marquee from "react-fast-marquee";
 
 const Header = () => {
@@ -21,7 +22,7 @@ const Header = () => {
   return (
     <React.Fragment>
       <header className="min-h-screen w-full">
-        <nav className="flex flex-col sm:flex-row justify-between px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 py-4 bg-gray-900 text-white">
+        <nav className="flex flex-col sm:flex-row justify-between px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 py-4 bg-gray-900 text-white sticky top-0 w-full z-50">
           <div className="flex items-center">
             <h1 className="text-xl font-bold">
               &lt; Ghost<span className="text-[#F7B32B]">Dev / &gt;</span>
@@ -72,9 +73,8 @@ const Header = () => {
         </nav>
 
         <main className="px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 py-8 sm:py-16 lg:py-24">
-          <div className="flex flex-col sm:flex-row items-center font-[archivo-regular] text-3xl  sm:text-base  md:text-4xl lg:text-5xl xl:text-6xl mt-8 sm:mt-12 lg:mt-16 xl:mt-20">
-            <Bounce left>
-              <Pulse>
+          <div className="flex flex-col justify-around sm:flex-row items-center font-[archivo-regular] text-3xl  sm:text-base  md:text-4xl lg:text-5xl xl:text-6xl mt-8 sm:mt-12 lg:mt-16 xl:mt-20">
+            <Bounce left duration={1000} delay={500}>
                 <div>
                   <h1
                     className={
@@ -94,10 +94,9 @@ const Header = () => {
                     <br />I build things for the web
                   </h1>
                 </div>
-              </Pulse>
             </Bounce>
 
-            <Bounce right>
+            <Bounce right duration={1000} delay={500}>
               <div className="mt-4 sm:mt-0">
                 <img src={coder} alt="vector" className="w-full" />
               </div>
