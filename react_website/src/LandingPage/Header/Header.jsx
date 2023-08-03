@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Button from "../../Components/Button/Button";
-import Bounce from "react-reveal/Bounce";
-import Pulse from "react-reveal/Pulse";
+import { Pulse, Bounce, Reveal} from "react-reveal";
 import coder from "../../Assets/Images/coder.gif";
 import githubLink from "../../Assets/Images/github-link.svg";
 import twitterLink from "../../Assets/Images/twitter-link.svg";
@@ -73,8 +72,8 @@ const Header = () => {
         </nav>
 
         <main className="px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 py-8 sm:py-16 lg:py-24">
-          <div className="flex flex-col justify-around sm:flex-row items-center font-[archivo-regular] text-3xl  sm:text-base  md:text-4xl lg:text-5xl xl:text-6xl mt-8 sm:mt-12 lg:mt-16 xl:mt-20">
-            <Bounce left duration={1000} delay={500}>
+          <div className="flex flex-col justify-around sm:flex-row items-center font-[archivo-regular] text-3xl  sm:text-base  md:text-4xl lg:text-5xl xl:text-6xl mt-8 sm:mt-12 2xl:lg:mt-16 xl:mt-20">
+            <Reveal effect="fadeInUp">
                 <div>
                   <h1
                     className={
@@ -94,7 +93,7 @@ const Header = () => {
                     <br />I build things for the web
                   </h1>
                 </div>
-            </Bounce>
+            </Reveal>
 
             <Bounce right duration={1000} delay={500}>
               <div className="mt-4 sm:mt-0">
