@@ -55,7 +55,6 @@ const Header = () => {
               to="/contact"
               className="block text-base hover:text-[#F7B32B] transition-colors"
               activeClassName="text-[#F7B32B]"
-              onClick = {() => <Contact/> }
             >
               Contact
             </NavLink>
