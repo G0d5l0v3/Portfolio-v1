@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import Button from "../../Components/Button/Button";
+import Contact from "../Content/Contact";
 import { Pulse, Bounce, Reveal } from "react-reveal";
 import coder from "../../Assets/Images/coder.gif";
 import githubLink from "../../Assets/Images/github-link.svg";
@@ -54,6 +55,7 @@ const Header = () => {
               to="/contact"
               className="block text-base hover:text-[#F7B32B] transition-colors"
               activeClassName="text-[#F7B32B]"
+              onClick = {() => <Contact/> }
             >
               Contact
             </NavLink>
