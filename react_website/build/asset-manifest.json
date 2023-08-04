@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1eb2ce29.css",
+    "main.js": "/static/js/main.f4b7bfea.js",
+    "static/js/787.e403dcb9.chunk.js": "/static/js/787.e403dcb9.chunk.js",
+    "static/media/coder.gif": "/static/media/coder.9b066827e226327f37a0.gif",
+    "static/media/KosticSerif-Bold.ttf": "/static/media/KosticSerif-Bold.d3154683521369a066cf.ttf",
+    "static/media/product card.jpg": "/static/media/product card.fb067fa5050235059adb.jpg",
+    "static/media/Archivo-Medium.ttf": "/static/media/Archivo-Medium.e97cd30e553ba9fd0a65.ttf",
+    "static/media/Archivo-Regular.ttf": "/static/media/Archivo-Regular.77b3b9481f1277a47dec.ttf",
+    "static/media/Archivo-Light.ttf": "/static/media/Archivo-Light.8ebdbb9b4b18d461a811.ttf",
+    "static/media/Archivo-Bold.ttf": "/static/media/Archivo-Bold.61aafac17987baad2c38.ttf",
+    "static/media/facebook login clone.jpg": "/static/media/facebook login clone.9ed76fb05bb7d5c88ad7.jpg",
+    "static/media/agechecker.jpg": "/static/media/agechecker.746cc468a00536797645.jpg",
+    "static/media/react.svg": "/static/media/react.ea8d7c26d9ce7bc5a6882779aa8cacdc.svg",
+    "static/media/node-js.svg": "/static/media/node-js.7f3e23c1cb5f1ad20c0d311513cfc4a7.svg",
+    "static/media/js.svg": "/static/media/js.f9d6615f624fd4d0da65fbf4ae5edf5c.svg",
+    "static/media/twitter-link.svg": "/static/media/twitter-link.d0af6b6acc52a62dcbb56d88acbbbefa.svg",
+    "static/media/github-link.svg": "/static/media/github-link.baab5c7151f444466cc1d887cac74ec9.svg",
+    "static/media/git.svg": "/static/media/git.fb2eda3501fb7c66c43993f361b75061.svg",
+    "static/media/github.svg": "/static/media/github.36dc0fbc093986dc6624f3ad8a37ab2a.svg",
+    "static/media/linkedin-link.svg": "/static/media/linkedin-link.689fa195b75871a4c0292502a72be0eb.svg",
+    "static/media/css.svg": "/static/media/css.1dc1ff133b346eb946ede2b781ce69f8.svg",
+    "static/media/html.svg": "/static/media/html.b4f276884d6135db3f45c375dcc50b01.svg",
+    "static/media/tailwind.svg": "/static/media/tailwind.b9b1c1f1882bc9294438cade232ec45e.svg",
+    "index.html": "/index.html",
+    "static/media/getstart.svg": "/static/media/getstart.bde2f2316874606209ced24c7cee15e1.svg",
+    "main.1eb2ce29.css.map": "/static/css/main.1eb2ce29.css.map",
+    "main.f4b7bfea.js.map": "/static/js/main.f4b7bfea.js.map",
+    "787.e403dcb9.chunk.js.map": "/static/js/787.e403dcb9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1eb2ce29.css",
+    "static/js/main.f4b7bfea.js"
+  ]
+}
