@@ -22,7 +22,7 @@ const Header = () => {
   return (
     <React.Fragment>
       <header className="min-h-screen w-full">
-        <nav className="flex flex-col sm:flex-row justify-between px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 py-4 bg-gray-900 text-white sticky top-0 w-full z-50">
+        <nav className="flex flex-col sm:flex-row justify-between px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 py-4 bg-gray-900 text-white fixed top-0 w-full z-50">
           <div className="flex items-center">
             <h1 className="text-xl font-bold">
               &lt; Ghost<span className="text-[#F7B32B]">Dev / &gt;</span>
@@ -56,7 +56,7 @@ const Header = () => {
               className="block text-base hover:text-[#F7B32B] transition-colors"
               activeClassName="text-[#F7B32B]"
             >
-              Contact
+              Contact Me
             </NavLink>
           </div>
           <div className="flex gap-4 sm:gap-8 items-center mt-4 sm:mt-0">
@@ -111,12 +111,12 @@ const Header = () => {
               type="black"
               text="Let's Connect"
               className="w-full sm:w-auto"
-            ></Button>
+            />
             <Button
               type="white"
               text="Preview CV"
               className="w-full sm:w-auto"
-            ></Button>
+            />
           </div>
         </main>
       </header>
