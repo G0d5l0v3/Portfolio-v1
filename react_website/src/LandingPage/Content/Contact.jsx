@@ -36,7 +36,7 @@ const Contact = () => {
       <textarea name="message" />
       <button type="submit"  className="w-[20px] border-none bg-grey">Send</button>
     </form>*/
-    <div className="flex items-center justify-center h-screen bg-gray-900">
+    <div className="flex items-center justify-center h-screen bg-gray-900 font-[archivo-regular]">
       <form
         ref={form}
         onSubmit={sendEmail}
@@ -89,7 +89,7 @@ const Contact = () => {
 
         <div className="flex items-center justify-between">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-[#EDA921] hover: bg-[#F7B32B] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             type="button"
           >
             Send
