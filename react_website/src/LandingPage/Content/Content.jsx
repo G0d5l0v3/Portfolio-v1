@@ -15,8 +15,8 @@ const Content = () => {
 
   return (
     <React.Fragment>
-      <section className="bg-[#f9f9f9] h-screen flex items-center justify-center" >
-        <div className="px-[7%] py-[8%]" id="techstack">
+      <section className="bg-[#f9f9f9] h-screen flex items-center justify-center" id="techstack">
+        <div className="px-[7%] py-[8%]">
           <div className="gap-3 h-[100vh] w-[100%]">
             <Pulse>
               <h1 className="text-center font-[archivo-regular] text-[3.5rem] pt-[3rem] pb-[1rem]">My Tech Stack</h1>

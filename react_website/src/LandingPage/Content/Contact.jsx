@@ -36,7 +36,7 @@ const Contact = () => {
       <textarea name="message" />
       <button type="submit"  className="w-[20px] border-none bg-grey">Send</button>
     </form>*/
-    <div className="flex items-center justify-center h-screen bg-gray-900 font-[archivo-regular]">
+    <div className="flex items-center justify-center h-screen bg-gray-900 font-[archivo-regular]" id="contact">
       <form
         ref={form}
         onSubmit={sendEmail}

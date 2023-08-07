@@ -28,7 +28,7 @@ const Header = () => {
               &lt; Ghost<span className="text-[#F7B32B]">Dev / &gt;</span>
             </h1>
           </div>
-          <div className="flex gap-4 sm:gap-8 items-center mt-4 sm:mt-0 font-[archivo-regular]">
+          <div className="flex gap-4 sm:gap-8 items-center mt-4 sm:mt-0 font-[archivo-regular]" id="home">
             <NavLink
               to="/home"
               className="block text-base hover:text-[#F7B32B] transition-colors"

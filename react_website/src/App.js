@@ -1,4 +1,4 @@
-import { Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import LandingPage from "./LandingPage/LandingPage";
 import Header from "./LandingPage/Header/Header";
 import Content from "./LandingPage/Content/Content";
@@ -10,10 +10,10 @@ function App() {
     <div className="App">
       <Routes>
         <Route index element={<LandingPage />} />
-        <Route path="home" element={<Header />} />
-        <Route path="techstack" element={<Content />} />
-        <Route path="projects" element={<Project />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="/home" element={<Header />} />
+        <Route path="/techstack" element={<Content />} />
+        <Route path="/projects" element={<Project />} />
+        <Route path="/contact" element={<Contact />} /> 
       </Routes>
     </div>
   );
