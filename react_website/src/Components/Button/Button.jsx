@@ -20,7 +20,7 @@ const Button = ({ type, text, onClick }) => {
     case "white":
       return (
         <NavLink
-          to="https://drive.google.com/file/d/1s2ACCbhbbE9TAPA5GcxGt5jhzERBWEBQ/view?usp=sharing"
+          to="https://drive.google.com/file/d/11XRaPprQlBWq7efZEpFOwEBDH37qWlkS/view?usp=drive_link"
           target="_blank"
         >
           <button
