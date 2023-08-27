@@ -27,7 +27,7 @@ const Button = ({ type, text, onClick }) => {
           target="_blank"
         >
           <button
-            className="flex items-center bg-[#FFFFFF] px-[1.2rem] py-[0.5rem] font-[archivo-regular] text-[#000000] text-[1rem] rounded-[2rem] outline-none outline-1 outline-[#dedede]"
+            className="flex items-center bg-[#FFFFFF] w-full px-[1.2rem] sm:px-[1.2rem] py-[0.5rem] font-[archivo-regular] text-[#000000] text-[1rem] rounded-[2rem] outline-none outline-1 outline-[#dedede]"
             onClick={onClick}
           >
             {text} <img src={getStart} alt="" />
