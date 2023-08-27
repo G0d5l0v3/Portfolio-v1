@@ -1,4 +1,5 @@
 import React from 'react'
+import { Element } from "react-scroll"
 import Pulse from 'react-reveal/Pulse'
 import js from "../../Assets/Images/js.svg"
 import tailwind from "../../Assets/Images/tailwind.svg"
@@ -15,6 +16,7 @@ const Content = () => {
 
   return (
     <React.Fragment>
+      <Element name ="techstackLink">
       <section className="bg-[#f9f9f9] h-screen flex items-center justify-center" id="techstack">
         <div className="px-[7%] py-[8%]">
           <div className="gap-3 h-[100vh] w-[100%]">
@@ -32,6 +34,7 @@ const Content = () => {
           </div>
         </div>
       </section>
+      </Element>
     </React.Fragment>
   );
 };

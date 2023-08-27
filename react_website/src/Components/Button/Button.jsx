@@ -1,20 +1,23 @@
 import React from "react";
 import getStart from "../../Assets/Images/getstart.svg";
 import Contact from "../../LandingPage/Content/Contact";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate} from "react-router-dom";
+
+
 
 const Button = ({ type, text, onClick }) => {
+  const navigate = useNavigate();
   switch (type.toLowerCase()) {
     case "black":
       return (
-        <NavLink to="" target="_blank">
+        
           <button
             className="flex gap-[1rem] items-center bg-[#000000] px-[1.2rem] py-[0.5rem] font-[archivo-medium] text-[#FFFFFF] text-[1rem] rounded-[2rem]"
-            onClick={() =><Contact/>}
+            onClick= {() => navigate("/contact")}
           >
             {text} <img src={getStart} alt="" />
           </button>
-        </NavLink>
+       
       );
       break;
     case "white":
