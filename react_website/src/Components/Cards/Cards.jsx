@@ -3,15 +3,16 @@ import { Card } from "antd";
 import ageChecker from "../../Assets/Images/agechecker.jpg";
 import fbLogin from "../../Assets/Images/facebook login clone.jpg";
 import productCard from "../../Assets/Images/product card.jpg";
+import lmsCard from "../../Assets/Images/lms card.jpg";
 
 const Cards = () => {
   const cardData = [
 
     {
-      title: "Online Store Products Card",
+      title: "KidsHive LMS",
       content: (
-        <a href="https://assesment-cyan.vercel.app/" target="_blank">
-          <img src={productCard} className="w-full h-[140px]" />
+        <a href="https://kidshive-vtjv.onrender.com/" target="_blank">
+          <img src={lmsCard} className="w-full h-[140px]" />
         </a>
       ),
     },
