@@ -2,7 +2,7 @@ import React from "react";
 import { Card } from "antd";
 import ageChecker from "../../Assets/Images/agechecker.jpg";
 import fbLogin from "../../Assets/Images/facebook login clone.jpg";
-import productCard from "../../Assets/Images/product card.jpg";
+import logicpointCard from "../../Assets/Images/logicpoint.JPG";
 import lmsCard from "../../Assets/Images/lms card.jpg";
 
 const Cards = () => {
@@ -16,11 +16,20 @@ const Cards = () => {
         </a>
       ),
     },
+    ,
+    {
+      title: "Logicpoint Website",
+      content: (
+        <a href="https://www.logicpointng.com/" target="_blank">
+          <img src={ageChecker} className="w-full h-[140px]" />
+        </a>
+      ),
+    },
     {
       title: "Age Checker",
       content: (
         <a href="https://age-calculator-livid.vercel.app/" target="_blank">
-          <img src={ageChecker} className="w-full h-[140px]" />
+          <img src={logicpointCard} className="w-full h-[140px]" />
         </a>
       ),
     },

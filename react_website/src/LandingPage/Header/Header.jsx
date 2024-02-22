@@ -2,8 +2,7 @@ import React, { useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import Button from "../../Components/Button/Button";
 import { Link, Element} from "react-scroll";
-import Contact from "../Content/Contact";
-import { Pulse, Bounce, Reveal } from "react-reveal";
+import { Bounce } from "react-reveal";
 import coder from "../../Assets/Images/coder.gif";
 import githubLink from "../../Assets/Images/github-link.svg";
 import twitterLink from "../../Assets/Images/twitter-link.svg";
@@ -24,7 +23,7 @@ const Header = () => {
   return (
     <React.Fragment>
       <header className="min-h-screen w-full">
-        <nav className="flex flex-col top-0 w-full z-50 sm:flex-row justify-between px-4 sm:px-8 md:fixed px-16 lg:fixed px-24 xl:fixed px-32 py-4 bg-gray-900  text-white">
+        <nav className="flex flex-col top-0 w-full z-50 sm:flex-row justify-between px-4 sm:px-8 md:fixed  lg:fixed xl:fixed  py-4 bg-gray-900 text-white">
           <div className="flex items-center">
             <h1 className="text-xl font-bold">
               &lt; Ghost<span className="text-[#F7B32B]">Dev / &gt;</span>
