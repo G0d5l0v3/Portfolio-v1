@@ -21,7 +21,7 @@ const Cards = () => {
       title: "Logicpoint Website",
       content: (
         <a href="https://www.logicpointng.com/" target="_blank">
-          <img src={ageChecker} className="w-full h-[140px]" />
+          <img src={logicpointCard} className="w-full h-[140px]" />
         </a>
       ),
     },
@@ -29,7 +29,7 @@ const Cards = () => {
       title: "Age Checker",
       content: (
         <a href="https://age-calculator-livid.vercel.app/" target="_blank">
-          <img src={logicpointCard} className="w-full h-[140px]" />
+          <img src={ageChecker} className="w-full h-[140px]" />
         </a>
       ),
     },
