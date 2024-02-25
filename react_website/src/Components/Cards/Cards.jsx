@@ -41,30 +41,7 @@ const Cards = () => {
         </a>
       ),
     },
-    /*{
-      title: "Basic Calculator",
-      content: (
-        <a href="https://age-calculator-livid.vercel.app/" target="_blank">
-          <img src={""} className="w-full h-[140px]" />
-        </a>
-      ),
-    },
-    {
-      title: "Age Calculator",
-      content: (
-        <a href="https://age-calculator-livid.vercel.app/" target="_blank">
-          <img src={""} className="w-full h-[140px]" />
-        </a>
-      ),
-    },
-    {
-      title: "Age Calculator",
-      content: (
-        <a href="https://age-calculator-livid.vercel.app/" target="_blank">
-          <img src={""} className="w-full h-[140px]" />
-        </a>
-      ),
-    },*/
+
     
   ];
 
